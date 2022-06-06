@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Poppins;
+}
+
+body {
+	background-color: #ecf0f1;
+	overflow: hidden;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.container{
+	max-width: 1140px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+
+
+.container h1{
+	grid-column: span 2;
+	font-size: 2.5rem;
+	color: #2c3e50;
+	margin-top: 7rem;
+	margin-bottom: 3rem;
+}
